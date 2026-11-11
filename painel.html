@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="resources/script/painel.js" defer></script>
+    <link rel="stylesheet" href="resources/css/painel.css">
+</head>
+<body>
+    <header>
+        <h1>Community Plus</h1>
+         <a href="lista.html">Ver lista</a>
+        <a href="index.html">Sair</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Eventos</h2>
+            <form data-tipo="eventos">
+                <input name="a" placeholder="título" required>
+                <input name="b" placeholder="mensagem" required>
+                <button>Publicar</button>
+
+
+            </form>
+            <ul id="eventos"></ul>
+        </section>
+
+        <section>
+            <h2>Moradores</h2>
+            <form data-tipo="moradores">
+                <input name="a" placeholder="Nome" required>
+                <input name="b" placeholder="CPF" required>
+                <input name="c" placeholder="Número de telefone" required>
+                <input name="d" placeholder="E-mail" required>
+                <button>Cadastrar</button>
+
+            </form>
+            <ul id="moradores"></ul>
+
+
+
+        </section>
+    </main>
+    
+</body>
+</html>
